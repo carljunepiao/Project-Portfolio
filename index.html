@@ -2,22 +2,40 @@
 <html>
 	<head>
 		<title>Carl's Project Portfolio</title>
+		<link rel="stylesheet" href="css/index.css">
 	</head>
 	<body>
-		<div class="navigation">
-			<ul>
-				<li>
-					<h2>Projects</h2>
-					<h2>Projects</h2>
-					<h2>About</h2>
-				</li>
-			</ul>
-		</div>
-		
-		<div class="main">
+		<div id="overlay" onclick="off()">
+    		<h1>PROJECT LINKS</h1>
+				<p><a href="http://carlpiao.webeng.life">Personal Website</a></p>
+				<p><a href="http://carlpiao.webeng.life">Personal Website</a></p>
+				<p><a href="http://carlpiao.webeng.life">Personal Website</a></p>
+    	</div>
+
+		<div class="container">
 			
+			<!-- //IMAGE TEST -->
+			<img src="resources/sample3.png" width="600" height="506" alt="Planets" usemap="#planetmap" id="button">
+
+			<map name="planetmap">
+				<area shape="rect" coords="0,0,82,126" alt="Sun" onclick="on()">
+			</map>
+
+			<!-- <div class="click">
+				<img id="button" src="resources/button.png" alt="Click" onclick="on()">
+			</div> -->
 		</div>
-		
-		<footer></footer>
+
+		<div class="about">
+
+			<h1>Charlito G. Piao Jr.</h1>
+			<h2>Project Portfolio</h2>
+			<p>Inside this briefcase is my project portfolio. I'm noob in web development so please bare with me, lols.</p>
+			<p>Click on the pin to open portfolio</p>
+		</div>
+
 	</body>
 </html>
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="index.js"></script>
