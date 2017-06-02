@@ -1,0 +1,125 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,255,0.45);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align:justify;
+    font-family: "Prociono";
+    margin:20px 20px auto;
+    padding: 20px;
+    background-color: rgba(0,0,255,0.1);
+    color: white;
+    opacity: 1.00;
+}   
+
+.container > h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    mix-blend-mode: normal;
+    opacity: 1.00;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+}
+
+.container > #header > h2{
+    text-align:left;
+    margin: 0;
+    padding: 5px;
+    padding-left:50px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 100%;
+    opacity: 1.00;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.container > #main > h2#list{
+    padding-top: 20px;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container > #main > #sub{
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    margin: 0;
+    padding: 5px;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: center;
+}
+
+.container > #main > #sub > ul > li{
+    margin: auto;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 100%;
+    color: #F2F2F2;
+    mix-blend-mode: normal;
+    opacity: 1.00;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container > #main > #sub > ul > p {
+    margin-left: 40px;
+    margin-right: 120px;
+    text-align:justify;
+    text-justify:inter-word;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.container > #main > #sub > ul > p#link {
+    text-decoration: none !important;
+    flex: 1;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin: 10px;
+    width:300px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    opacity: 1.00;
+}
+
+.container > #main > #sub > ul > p#link a:hover {
+    color:#000033;
+    cursor:pointer;
+    font-size: 21px;
+    transition: background-color 1000ms, color 1000ms;
+}
+
+a {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    color: #003366;
+}
