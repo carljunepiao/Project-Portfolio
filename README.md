@@ -24,7 +24,7 @@ School: University of the Philippines Cebu <br>
 </p>
 
   <li>CMSC 127: Final Project</li>
-    <p><a href="https://github.com/carljunepiao/PleasantVille"></a>PleasantVille Theatre System</p>
+    <p><a href="https://github.com/carljunepiao/PleasantVille">PleasantVille Theatre System</a></p>
     <p>This project is made by a group of five people. I was assigned in the backend part of the project using the language PHP and MySQL in connecting the System to database to enable the storing and accessing of data in the system.</p>
   
 </ul>
