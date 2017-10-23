@@ -7,7 +7,7 @@ School: University of the Philippines Cebu <br>
 <h2>List of my Projects </h2>
 <ul>
   <li><strong>CMSC 126: Personal Website (2017)</strong></li>
-    <p><a href= "http://carlpiao.webeng.life"> carlpiao.webeng.life</a></p>
+    <p><a href= "https://github.com/carljunepiao/personal-website"> carlpiao.webeng.life</a></p>
     <p>A project created using HTML,CSS,Javascript,Express,Postgres,Nodejs.My personal website shows my resume,hobbies,and other cool stuff. </p>
     
   <li><strong>CMSC 126: Hackathon Finals (2017)</strong></li>
